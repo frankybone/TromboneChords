@@ -1,0 +1,77 @@
+body {
+        background: #202028;
+        color: #fff;
+	font-family: 'Fredericka the Great', cursive;
+        font-size: 2em;
+        text-align: center;
+      }
+      canvas {
+	height: 90vh;
+      }
+      #main{
+        display: none;
+        position: relative;
+      }
+      #easy, #medium, #hard, #creditBtn, #back, #restart{
+        text-align: center;
+        vertical-align: middle;
+        border: 2px solid goldenrod;
+        border-radius: 7px;
+        background-color: gold;
+        color: orangeRed;
+        font-size: 32px;
+        font-weight: bold;
+        font-family: 'Fredericka the Great', cursive;
+        width: 5em;
+        margin: 5px auto;
+
+      }
+      #titolo{
+        margin: auto;
+        color: orange;
+        font-size: 2em;
+        font-family: 'Fredericka the Great', cursive;
+      }
+      #credits{
+        margin: auto;
+        color: orange;
+        font-size: 1em;
+        font-family: 'Fredericka the Great', cursive;
+        display: none;
+        background-color: inherit;
+      }
+      #back, #restart {
+        display: none;
+      }
+
+      #pentagramma {
+        margin: auto;
+        width: 600px;
+        height: 100px;
+      }
+      #posizioni {
+        width: 600px;
+        height: 100px;
+        margin: auto;
+      }
+      .ml15 {
+        font-weight: 800;
+        font-size: 3.8em;
+        text-transform: uppercase;
+        letter-spacing: 0.5em;
+      }
+	#gameOver{
+	  color: #710C04;
+	}
+	#youWin{
+	  color: #00cc00;
+	}
+
+      .ml15 .word {
+        display: inline-block;
+        line-height: 1em;
+      }
+
+p {
+    font-family: 'Fredericka the Great', cursive;
+  }
