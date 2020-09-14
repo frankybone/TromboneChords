@@ -91,7 +91,7 @@ It is recommend using Firefox, as the Chrome browser reports an error when creat
 
 <h2>Conclusions</h2>
 
-<b>Trombone Chords</b> was designed as a didactic application and new possible features could be implemented in the future to improve the didactic purpose. In addition to a possible expansion of the chord library, an idea could be to create a collection of audio samples of all the notes produced by the trombone to be played when the student has failed to play the notes correctly and the score with the correct notes and positions is displayed on the screen. Otherwise you can create a new game mode in which the subdivision of the chords is based on the modal scales, so all the chords generated for a certain level derives from the same modal scale.
+<b>Trombone Chords</b> was designed as a didactic application and new possible features could be implemented in the future to improve the didactic purpose. In addition to a possible expansion of the chord library, an idea could be to create a collection of audio samples of all the notes produced by the trombone to be played when the student has failed to play the notes correctly and the score is displayed on the screen with the correct notes and positions. Otherwise another idea is to create a new game mode in which the subdivision of the chords is based on the modal scales, so all the chords generated for a certain level derives from the same modal scale.
 
 <blockquote>
 		Project link:
