@@ -18,7 +18,7 @@ The project was entirely realized by Francesco Lorenzo and Luca Sorini, students
  
 <h2>Goals</h2>
 <p>
-The project was born with a didactic purpose and is designed for beginner students who approach the study of the trombone. The choice of this particular instrument is linked to the fact that we both play the trombone. The game is based on chords and has both a theoretical and practical implication since the student practices both in recognizing the notes that make up the different chords and in playing the intervals, and therefore correctly associate the positions of the trombone's coulisse to the various notes.<br>
+The project was born with a didactic purpose and is designed for beginner students who approach the study of the trombone (we chose this particular instrument beacuase we both play it). This game is based on chords and has both a theoretical and practical implication since the student practices both in recognizing the notes that make up the different chords and in playing the intervals, so in this way can practice associating correctly the positions of the trombone's coulisse to the various notes.<br>
 Since the game has a didactic purpose, when the student is unable to play the notes that make up a certain chord, the program prints a staff on the screen on which the correct notes are reported and, under each note, the corresponding position of the trombone's coulisse is indicated.
 </p>
 
@@ -40,6 +40,8 @@ The application is written in HTML and CSS for the graphics, while in Javascript
 			<a href="https://p5js.org/reference/#/libraries/p5.dom" >
 			https://p5js.org/reference/#/libraries/p5.dom
 			</a>
+		</blockquote>
+		<blockquote>
 			<a href="https://p5js.org/reference/#/libraries/p5.sound" >
 			https://p5js.org/reference/#/libraries/p5.sound
 			</a>
@@ -60,18 +62,18 @@ The application is written in HTML and CSS for the graphics, while in Javascript
   
 The <b>ml5.js</b> library uses a pitch detection algorithm to estimate the fundamental frequency of the audio signal perceived by the microphone.<br>
 The <b>p5.dom.js</b> library is used for canvas, text and images management, while the the <b>p5.sound.js</b> library is used for web audio features, such as the AudioContext creation and the microphone activation.<br>
-The <b>VexFlow</b> library is used for staff creation and note writing.
+The <b>VexFlow</b> library is used for staff creation and note writing.<br>
 The <b>anime.js</b> library is used for the animations of "You win", "Game over" and the instructions into the menu page.
 
 The application is managed by some javascript files:<br>
  <ol>
-	<li><b>structure.js</b>, which governs the operations of the main menu buttons;</li>
+	<li><b>structure.js</b>, which governs the operations of the main menu buttons and the animation of the writings;</li>
 	<li><b>notes.js</b>, which contains the notes and the corrispondent frequencies;</li>
 	<li><b>chords.js</b>, which cointains all the chords present in the game;</li>
-	<li><b>tuner.js</b>, which cointains all the chords present in the game;</li>
-	<li><b>levels.js</b>, which governs the different levels of the game, the staff creation and contains the algorithm wich allow the comparison between the frequencies of the played note and the single note composizng a chord;</li>
+	<li><b>tuner.js</b>, which governs the operation of the tuner and its graphics;</li>
+	<li><b>levels.js</b>, which governs the different levels of the game, the staff creation and contains the algorithm wich allow the comparison between the frequencies of the played note and the single note composing a chord;</li>
 	<li><b>game.js</b>, which creates the AudioContext, starts the pitch detection function, manages the score, the timer and the chords printed on the screen;</li>
-
+<br>
 For the writings, the font used is the following:
 	<blockquote>
 		font link:
@@ -106,7 +108,7 @@ It is recommend using Firefox, as the Chrome browser reports an error when creat
 <b>Francesco Lorenzo</b>: 
 <a href="mailto:francesco2.lorenzo@mail.polimi.it">
 francesco2.lorenzo@mail.polimi.it
-</a>
+</a><br>
 <b>Luca Sorini</b>: 
 <a href="mailto:luca.sorini@mail.polimi.it">
 luca.sorini@mail.polimi.it
