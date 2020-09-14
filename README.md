@@ -1,4 +1,6 @@
- <h1>Trombone Chords</h1>
+<img src="https://media.tenor.com/images/2afae0cffff89f5304f62f45518c1fb9/tenor.gif" alt="pap_trombone"> 
+ 
+<h1>Trombone Chords</h1>
 
 <p>
 POLITECNICO DI MILANO, Music and Acoustics Engineering<br>
