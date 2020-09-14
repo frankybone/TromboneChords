@@ -1,0 +1,204 @@
+body {
+        background: #202028;
+        color: #fff;
+	font-family: 'Fredericka the Great', cursive;
+        font-size: 2em;
+        text-align: center;
+      }
+      canvas {
+	height: 90vh;
+      }
+      #trb {
+	transform: rotate(30deg);
+      }
+      #trb_big {
+	transform: rotate(30deg);
+      }
+      #main{
+        display: none;
+        position: relative;
+      }
+      #easy {
+        text-align: center;
+        position: absolute;
+	top: 70%;
+	left: 13%;
+        border: 2px solid goldenrod;
+        border-radius: 7px;
+        background-color: transparent;
+        color: white;
+        font-size: 48px;
+        font-family: 'Fredericka the Great', cursive;
+        width: 5em;
+        margin: 5px auto;
+	cursor: pointer;
+      }
+      #medium {
+        text-align: center;
+        position: absolute;
+	top: 70%;
+	left: 33%;
+        border: 2px solid goldenrod;
+        border-radius: 7px;
+        background-color: transparent;
+        color: white;
+        font-size: 48px;
+        font-family: 'Fredericka the Great', cursive;
+        width: 5em;
+        margin: 5px auto;
+	cursor: pointer;
+      }
+      #hard {
+        text-align: center;
+        position: absolute;
+	top: 70%;
+	left: 53%;
+        border: 2px solid goldenrod;
+        border-radius: 7px;
+        background-color: transparent;
+        color: white;
+        font-size: 48px;
+        font-family: 'Fredericka the Great', cursive;
+        width: 5em;
+        margin: 5px auto;
+	cursor: pointer;
+      }
+      #epic {
+        text-align: center;
+        position: absolute;
+	top: 70%;
+	left: 73%;
+        border: 2px solid goldenrod;
+        border-radius: 7px;
+        background-color: transparent;
+        color: white;
+        font-size: 48px;
+        font-family: 'Fredericka the Great', cursive;
+        width: 5em;
+        margin: 5px auto;
+	cursor: pointer;
+      }
+      #creditBtn {
+        text-align: center;
+        position: absolute;
+	top: 85%;
+	left: 43%;
+	background-color: transparent;
+        color: #1e8ae3;
+        font-size: 40px;
+        font-family: 'Fredericka the Great', cursive;
+        width: 5em;
+        margin: 5px auto;
+	cursor: pointer;
+      }
+      #back {
+        text-align: center;
+        border: 2px solid goldenrod;
+        border-radius: 7px;
+        background-color: transparent;
+        color: white;
+        font-size: 40px;
+        font-family: 'Fredericka the Great', cursive;
+        width: 5em;
+        margin: 5px auto;
+	cursor: pointer;
+      }
+      #restart {
+        text-align: center;
+        border: 2px solid goldenrod;
+        border-radius: 7px;
+        background-color: transparent;
+        color: white;
+        font-size: 40px;
+        font-family: 'Fredericka the Great', cursive;
+        width: 5em;
+        margin: 5px auto;
+	cursor: pointer;
+      }
+      #easy:hover,#medium:hover,#hard:hover,#epic:hover,#back:hover,#restart:hover {
+	text-align: center;
+        vertical-align: middle;
+        border: 2px solid goldenrod;
+        border-radius: 7px;
+        background-color: gold;
+        color: #202028;
+        font-size: 48px;
+        font-family: 'Fredericka the Great', cursive;
+        width: 5em;
+        margin: 5px auto;
+      }
+      #back:hover,#restart:hover {
+	      text-align: center;
+        vertical-align: middle;
+        border: 2px solid goldenrod;
+        border-radius: 7px;
+        background-color: gold;
+        color: #202028;
+        font-size: 40px;
+        font-family: 'Fredericka the Great', cursive;
+        width: 5em;
+        margin: 5px auto;
+      }
+      #creditBtn:hover {
+	      text-align: center;
+        background-color: transparent;
+        color: gold;
+        font-size: 40px;
+        font-family: 'Fredericka the Great', cursive;
+        width: 5em;
+        margin: 5px auto;
+      }
+      #titolo{
+        margin: auto;
+        color: orange;
+        font-size: 3.5em;
+        font-family: 'Fredericka the Great', cursive;
+      }
+      #credits{
+        margin: auto;
+        color: orange;
+        font-size: 1em;
+        font-family: 'Fredericka the Great', cursive;
+        display: none;
+        background-color: inherit;
+      }
+      #back, #restart {
+        display: none;
+      }
+
+      #pentagramma {
+	margin: auto;
+	width: 1200px;
+  	border-radius: 15px;
+	background: radial-gradient(ellipse closest-side, #fff 20%, #cacacc 40%, #949498 60%, #202028 94%);
+	opacity: 0.8;
+      }
+      #posizioni {
+        margin: auto;
+      }
+      .ml15 {
+        font-weight: 800;
+        font-size: 3.2em;
+        text-transform: uppercase;
+        letter-spacing: 0.5em;
+      }
+      .ml15 .word {
+        display: inline-block;
+        line-height: 1em;
+      }
+      #gameOver{
+	 color: #710C04;
+	 display: none;
+      }
+      #youWin{
+	 color: #00cc00;
+	 display: none;
+      }
+      .ml3 {
+  	font-weight: 200;
+  	font-size: 1.0em;
+      }
+
+p {
+    font-family: 'Fredericka the Great', cursive;
+  }
